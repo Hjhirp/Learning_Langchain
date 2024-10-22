@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "reflexion-agent"
+version = "0.1.0"
+description = "Implementation of Reflexion Agent"
+authors = ["Hjhirp <hhirp@uic.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+langchain = "^0.3.4"
+langchain-openai = "^0.2.3"
+langchain-community = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
